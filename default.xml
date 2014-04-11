@@ -471,6 +471,6 @@
   <project path="vendor/tmobile/providers/ThemeManager" name="TeamRevolution/android_vendor_tmobile_providers_ThemeManager" remote="github" revision="cm-11.0" />
 
   <!-- Omniswitch -->
-  <project path="packages/apps/Omniswitch" name="TeamRevolution/packages_apps_OmniSwitch" remote="github" revision="android-4.4" />
+  <project path="packages/apps/OmniSwitch" name="TeamRevolution/packages_apps_OmniSwitch" remote="github" revision="android-4.4" />
 
 </manifest>
