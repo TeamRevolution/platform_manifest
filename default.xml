@@ -12,7 +12,7 @@
            remote="aosp"
            sync-j="4" />
 
-  <project path="build" name="SlimRoms/android_build" remote="github" revision="kk4.4" >
+  <project path="build" name="TeamRevolution/android_build" remote="github" revision="kk4.4" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
@@ -205,7 +205,7 @@
   <project path="external/sepolicy" name="SlimRoms/android_external_sepolicy" remote="github" revision="kk4.4" />
   <project path="external/sfntly" name="platform/external/sfntly" />
   <project path="external/sil-fonts" name="platform/external/sil-fonts" />
-  <project path="external/skia" name="SlimRoms/android_external_skia" remote="github" revision="kk4.4" />
+  <project path="external/skia" name="TeamRevolution/android_external_skia" remote="github" revision="kk4.4" />
   <project path="external/smack" name="platform/external/smack" />
   <project path="external/smali" name="platform/external/smali" />
   <project path="external/sonivox" name="platform/external/sonivox" groups="pdk" />
@@ -243,7 +243,7 @@
   <project path="frameworks/ex" name="platform/frameworks/ex" />
   <project path="frameworks/mff" name="platform/frameworks/mff" />
   <project path="frameworks/ml" name="platform/frameworks/ml" />
-  <project path="frameworks/native" name="SlimRoms/frameworks_native" remote="github" revision="kk4.4" />
+  <project path="frameworks/native" name="TeamRevolution/frameworks_native" remote="github" revision="kk4.4" />
   <project path="frameworks/opt/calendar" name="platform/frameworks/opt/calendar" />
   <project path="frameworks/opt/carddav" name="platform/frameworks/opt/carddav" />
   <project path="frameworks/opt/cards" name="SlimRoms/frameworks_opt_cards" remote="github" revision="kk4.4" />
@@ -466,9 +466,8 @@
   <project path="packages/apps/ScreenRecorder" name="TeamRevolution/packages_apps_ScreenRecorder" remote="github" revision="kitkat" />
 
   <!-- Theme Manager -->
-  <project path="vendor/tmobile/apps/ThemeChooser" name="TeamRevolution/themes-platform-vendor-tmobile-apps-ThemeChooser" remote="github" revision="cm-11.0" />
-  <project path="vendor/tmobile/libs/com.tmobile.themes" name="TeamRevolution/android_vendor_tmobile_libs_com.tmobile.themes" remote="github" revision="cm-11.0" />
-  <project path="vendor/tmobile/providers/ThemeManager" name="TeamRevolution/android_vendor_tmobile_providers_ThemeManager" remote="github" revision="cm-11.0" />
+  <project path="packages/apps/ThemeChooser" name="CyanogenMod/android_packages_apps_ThemeChooser" remote="github" revision="cm-11.0" />
+  <project path="packages/providers/ThemesProvider" name="CyanogenMod/android_packages_providers_ThemesProvider" remote="github" revision="cm-11.0" />
 
   <!-- Omniswitch -->
   <project path="packages/apps/OmniSwitch" name="TeamRevolution/packages_apps_OmniSwitch" remote="github" revision="kk4.4" />
