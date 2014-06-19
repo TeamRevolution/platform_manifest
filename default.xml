@@ -473,8 +473,8 @@
   <project path="packages/apps/ScreenRecorder" name="TeamRevolution/packages_apps_ScreenRecorder" remote="github" revision="kitkat" />
 
   <!-- Theme Manager -->
-  <project path="packages/apps/ThemeChooser" name="CyanogenMod/android_packages_apps_ThemeChooser" remote="github" revision="cm-11.0" />
-  <project path="packages/providers/ThemesProvider" name="CyanogenMod/android_packages_providers_ThemesProvider" remote="github" revision="cm-11.0" />
+  <project path="packages/apps/ThemeChooser" name="TeamRevolution/android_packages_apps_ThemeChooser" remote="github" revision="cm-11.0" />
+  <project path="packages/providers/ThemesProvider" name="TeamRevolution/android_packages_providers_ThemesProvider" remote="github" revision="cm-11.0" />
 
   <!-- Omniswitch -->
   <project path="packages/apps/OmniSwitch" name="TeamRevolution/packages_apps_OmniSwitch" remote="github" revision="kk4.4" />
